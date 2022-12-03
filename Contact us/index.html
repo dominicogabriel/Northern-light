@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/Contact us/form.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1>Reach Us</h1>
+    </header>
+    <main>
+      <form action="/" method="GET">
+        <section id="userdetails">
+          <h2>How can we help you ?</h2>
+          <ul>
+            <li>
+              <label for="username">Your Name</label>
+              <input
+                type="text"
+                id="username"
+                name="user-name"
+                required
+                placeholder="Gabriel Dominic"
+              />
+            </li>
+            <li>
+              <label for="useremail">Your Email</label>
+              <input
+                type="email"
+                id="useremail"
+                name="user-email"
+                required
+                placeholder="dom@test.com"
+              />
+            </li>
+            <li>
+              <label for="usercall">Your Phone Number</label>
+              <input
+                type="number"
+                id="usercall"
+                name="user-call"
+                required
+                placeholder="0123456"
+                max="8"
+              />
+            </li>
+          </ul>
+        </section>
+        <section>
+          <label for="usermessage">Your Message</label>
+          <textarea
+            name="user-message"
+            id="usermessage"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+        </section>
+        <section>
+          <div>
+            <label for="findus">How did you find us ?</label>
+            <select name="find-us" id="findus">
+              <option value="instagram">Instagram</option>
+              <option value="facebook">Facebook</option>
+              <option value="twitter">Twitter</option>
+            </select>
+          </div>
+        </section>
+        <section id="reply">
+          <h2>How should we reply ?</h2>
+          <ul>
+            <li class="check">
+              <input
+                type="radio"
+                name="reply"
+                id="replyemail"
+                value="email"
+                required
+              />
+              <label for="replyemail">Send me an E-mail</label>
+            </li>
+            <li class="check">
+              <input
+                type="radio"
+                name="reply"
+                id="replyphone"
+                value="phone"
+                required
+              />
+              <label for="replyphone">Send me a Text</label>
+            </li>
+            <li class="check">
+              <input
+                type="radio"
+                name="reply"
+                id="replyno"
+                value="noreply"
+                required
+              />
+              <label for="replyno">Don't Reply</label>
+            </li>
+          </ul>
+        </section>
+        <section class="check">
+          <input type="checkbox" id="agree-terms" name="terms" required />
+          <label for="agree-terms">Agree to terms ?</label>
+        </section>
+        <section id="btn">
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </section>
+      </form>
+    </main>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="https://github.com/dominicogabriel" target="_blank"
+            ><img src="/images/25231.png" alt="Github"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/DominicoGabriel" target="_blank"
+            ><img src="/images/81609.png" alt="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dominicogabriel/" target="_blank"
+            ><img src="/images/87390.png" alt="instagram"
+          /></a>
+        </li>
+      </ul>
+      <p>Copyright &copy; Dominic</p>
+    </footer>
+  </body>
+</html>
