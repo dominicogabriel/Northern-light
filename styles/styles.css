@@ -78,7 +78,7 @@
 
 #hero {
     height: 800px;
-    background-image: url(images/pexels-harrison-haines-3172571.jpg);
+    background-image: url(../images/pexels-harrison-haines-3172571.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
