@@ -73,7 +73,7 @@
 
 #side-drawer li a {
     text-decoration: none;
-    color: white;
+    color: rgb(201, 204, 204);
 }
 
 #hero {
@@ -96,7 +96,7 @@
 }
 
 #hero-content h1 {
-    color: white;
+    color: rgb(201, 204, 204);
     font-size: 45px;
     text-transform: uppercase;
     margin: 0;
@@ -104,7 +104,7 @@
 
 #hero-content p {
     font-size: 15px;
-    color: white;
+    color: rgb(201, 204, 204);
     font-weight: 300px;
     text-transform: uppercase;
     margin-bottom: 32px;
@@ -135,7 +135,7 @@
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(252, 252, 252);
+    color: rgb(201, 204, 204);
     margin: 20px 0;
     margin-top: 0;
 }
